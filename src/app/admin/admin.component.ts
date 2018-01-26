@@ -1,15 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Item } from '../item.model';
+import { ItemService } from '../item.service';
 
 @Component({
   selector: 'app-admin',
   templateUrl: './admin.component.html',
-  styleUrls: ['./admin.component.css']
+  styleUrls: ['./admin.component.css'],
+  providers: [ItemService]
 })
-export class AdminComponent implements OnInit {
+export class AdminComponent {
+  constructor(private itemService: ItemService) { }
 
-  constructor() { }
-
-  ngOnInit() {
+  submitForm(
+    name: string,
+    price: number,
+    description: string,
+    photo: string
+  ) {
+    var newItem: Item = new Item(name, price, description, photo);
+    this.itemService.addItem(newItem);
   }
-
 }

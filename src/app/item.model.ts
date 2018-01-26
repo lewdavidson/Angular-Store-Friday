@@ -1,3 +1,3 @@
 export class Item {
-  constructor(public name: string, public price: number, public details: string, public photo: string) {}
+  constructor(public name: string, public price: number, public description: string, public photo: string) {}
 }

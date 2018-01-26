@@ -1,3 +1,43 @@
-<p>
-  admin works!
-</p>
+<h2>Inventory</h2>
+<div *ngFor="let item of items | async" class="card">
+  <div class="card-img-top">
+    <img src="{{item.photo}}">
+  </div>
+  <div class="card-body">
+    <div class="card-title">
+      <h3 (click)="goToDetailPage(item)">{{item.name}}</h3>
+    </div>
+    <p class="card-text">{{item.description}} <br> ${{item.price}}</p>
+    <button class="btn btn-danger">Buy it!</button>
+    <div *ngIf="currentRoute === '/admin'">
+      <h5>{{item.$key}}</h5>
+      <button>Remve From Inventory</button>
+    </div>
+  </div>
+</div>
+
+
+<h2>Add New Inventory</h2>
+<div class="form-group">
+  <div>
+    <label>Garment Name::</label>
+    <br>
+    <input #newname>
+  </div>
+  <div>
+    <label>Garment Price:</label>
+    <br>
+    <input #newPrice>
+  </div>
+  <div>
+    <label>Garment Description:</label>
+    <br>
+    <textarea #newDescription></textarea>
+  </div>
+  <div>
+    <label>Photo Link:</label>
+    <br>
+    <input #newPhoto>
+  </div>
+  <button class="btn btn-warning" (click)="submitForm(newName.value, newPrice.value, newDescription.value, newPhoto.value); newName.value=''; newPrice.value=''; newDescription.value=''; newPhoto.value='';">Add</button>
+</div>
