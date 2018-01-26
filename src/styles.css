@@ -31,3 +31,45 @@ html {
   height: 70vh;
   background: url('bleh.jpg');
 }
+
+.barf-shop {
+  text-align: center;
+  color: #4D7EA8;
+  margin: 70px;
+  text-decoration: underline;
+}
+.card {
+  max-width: 400px;
+  margin: 15px;
+  border: solid 1px #A8DCD1;
+    text-align: center;
+}
+
+.card-img-top img {
+  width: 100%;
+  min-height: 400px;
+  object-fit: cover;
+}
+.card-body {
+  background: #FFCAB1;
+}
+
+.card-title {
+  color: white;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buy-button {
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 1px 1px;
+}
+.key-color {
+  color: #4D7EA8;
+}
