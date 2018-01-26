@@ -22,7 +22,8 @@ export class DetailsComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.itemId = urlParameters['id'];
     });
-    this.itemToDisplay = this.itemService.getItemById(this.itemId);
+    this.itemService.getItemById(this.itemId).subscribe(dataLastEmittedFromObserver => {
+      this.itemToDisplay = dataLastEmittedFromObserver;
+    });
   }
-
 }

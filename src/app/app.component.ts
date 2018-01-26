@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'B.A.R.F (Barely Anything to Return For)';
+  title = 'B.A.R.F';
+  secondary = '(Barely Anything to Return For)';
 }

@@ -9,7 +9,7 @@
       <h3 (click)="goToDetailPage(item)">{{item.name}}</h3>
     </div>
     <p class="card-text">{{item.description}} <br> ${{item.price}}</p>
-    <div *ngIf="currentRoute === 'home'">
+    <div *ngIf="currentRoute === '/home'">
       <button class="btn btn-danger">Buy it!</button>
     </div>
     <div *ngIf="currentRoute === '/admin'">
