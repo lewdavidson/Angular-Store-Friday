@@ -1,0 +1,17 @@
+{ "items": [{
+    "name": "Pukey Pink Parka",
+    "price": "100",
+    "description": "A parka so cute you could just die.",
+    "photo": "https://www.jcrew.com/s7-img-facade/H2223_WQ3058_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=636&hei=636"
+    }, {
+    "name": "Badass Baseball Cap",
+    "price": "25",
+    "description": "Tak me out to the...nevermind, just take me out ya know?",
+    "photo": "https://i.pinimg.com/736x/83/3d/db/833ddbbccd6b8e7939caf5790dc0fce5.jpg"
+      }, {
+    "name": "Bad Boiii Blazer",
+    "price": "150",
+    "description": "So hot, so bad, to fashionable.",
+    "photo": "https://blog.newchic.com/wp-content/uploads/2017/09/7157872f-de26-40ae-ac38-960b604cd32b.jpeg"
+  }]
+}

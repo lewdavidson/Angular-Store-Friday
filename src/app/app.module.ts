@@ -11,7 +11,14 @@ import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
-
+export const firebaseConfig = {
+    apiKey: "AIzaSyDw-r_DseThdCpTLF63TzzLGgEh9jccS7o",
+    authDomain: "barf-b6ffd.firebaseapp.com",
+    databaseURL: "https://barf-b6ffd.firebaseio.com",
+    projectId: "barf-b6ffd",
+    storageBucket: "barf-b6ffd.appspot.com",
+    messagingSenderId: "239334292238"
+  };
 
 @NgModule({
   declarations: [
