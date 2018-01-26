@@ -4,8 +4,14 @@
   <div class="card-img-top">
     <img src="{{item.photo}}">
   </div>
-  <div class="card-title">
-    <h3 (click)="GoToDetailPage(item)">{{item.name}}</h3>
+  <div class="card-body">
+    <div class="card-title">
+      <h3 (click)="goToDetailPage(item)">{{item.name}}</h3>
+    </div>
+    <p class="card-text">{{item.description}} <br> ${{item.price}}</p>
+    <button class="btn btn-danger">Buy it!</button>
+    <div *ngIf="currentRoute === '/admin'">
+      <h5>{{item.$key}}</h5>
+    </div>
   </div>
-
 </div>
