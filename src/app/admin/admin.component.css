@@ -1,0 +1,18 @@
+.add-inv {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #FFCAB1;
+}
+
+.form-control {
+  margin-bottom: 25px;
+}
+
+.add-new-button {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #A8DCD1;
+  color: #F96900;
+}

@@ -2,16 +2,21 @@
     "name": "Pukey Pink Parka",
     "price": "100",
     "description": "A parka so cute you could just die.",
-    "photo": "https://www.jcrew.com/s7-img-facade/H2223_WQ3058_m?fmt=jpeg&qlt=90,0&resMode=sharp&op_usm=.1,0,0,0&wid=636&hei=636"
+    "photo": "https://cdnd.lystit.com/photos/asos/852365-Dustypink-59ab73fc-.jpeg"
     }, {
     "name": "Badass Baseball Cap",
     "price": "25",
-    "description": "Tak me out to the...nevermind, just take me out ya know?",
+    "description": "Take me out to the...nevermind, just take me out ya know?",
     "photo": "https://i.pinimg.com/736x/83/3d/db/833ddbbccd6b8e7939caf5790dc0fce5.jpg"
       }, {
     "name": "Bad Boiii Blazer",
     "price": "150",
     "description": "So hot, so bad, to fashionable.",
-    "photo": "https://blog.newchic.com/wp-content/uploads/2017/09/7157872f-de26-40ae-ac38-960b604cd32b.jpeg"
-  }]
+    "photo": "https://cdn.joules.com/medias/2017-03-21-WomensBlazers-TopBanner.jpg?context=bWFzdGVyfGltYWdlc3wxODQ0NnxpbWFnZS9qcGVnfGltYWdlcy9oNmEvaDhiLzkxNTEzMzE3OTQ5NzQuanBnfDg3MzNjNTFhMDA5OThmNWEyMDI1Yzc3Njk1ZjU0NTczZTAyNzBmOGU5ZTY1Mzc1MGIzODAwMGQ1OGExM2VkYTQ"
+  },
+  {
+  "name": "Jacked-Up Jumpsuit",
+  "price": "80",
+  "description": "Jump Jump Jump around! Go ahead and get down!!",
+  "photo": "https://c.static-nike.com/a/images/t_PDP_1280_v1/f_auto/rphw2z3exsdiwumd29yz/air-womens-jumpsuit-K8pzdn.jpg"}]
 }

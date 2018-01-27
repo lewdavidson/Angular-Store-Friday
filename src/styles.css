@@ -49,6 +49,7 @@ html {
   width: 100%;
   min-height: 400px;
   object-fit: cover;
+  max-height: 400px;
 }
 .card-body {
   background: #FFCAB1;

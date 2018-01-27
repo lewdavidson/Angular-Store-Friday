@@ -1,0 +1,10 @@
+.section {
+  text-align: center;
+  display: block;
+}
+
+.heading {
+  margin-top: 25px;
+  text-decoration: underline;
+  color: #FFCAB1;
+}

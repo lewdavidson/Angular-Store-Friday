@@ -1,27 +1,22 @@
 <app-home></app-home>
 
-
-<h2>Add New Inventory</h2>
+<h2 class="add-inv">Add New Inventory</h2>
 <div class="form-group">
   <div>
-    <label>Garment Name::</label>
-    <br>
-    <input #newname>
+    <input #newname class="form-control form-control" type="text" placeholder="Garment Name:">
   </div>
   <div>
-    <label>Garment Price:</label>
-    <br>
-    <input #newPrice>
+    <input #newPrice  class="form-control form-control" type="number" placeholder="Garment Price:">
   </div>
   <div>
     <label>Garment Description:</label>
     <br>
-    <textarea #newDescription></textarea>
+    <textarea class="form-control" #newDescription></textarea>
   </div>
   <div>
     <label>Photo Link:</label>
     <br>
-    <input #newPhoto>
+    <input type="text" class="form-control" id="basic-url" #newPhoto>
   </div>
-  <button class="btn btn-warning" (click)="submitForm(newName.value, newPrice.value, newDescription.value, newPhoto.value); newName.value=''; newPrice.value=''; newDescription.value=''; newPhoto.value='';">Add</button>
+  <button class="btn add-new-button" (click)="submitForm(newName.value, newPrice.value, newDescription.value, newPhoto.value); newName.value=''; newPrice.value=''; newDescription.value=''; newPhoto.value='';">Add</button>
 </div>
